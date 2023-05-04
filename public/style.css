@@ -1,0 +1,51 @@
+body {
+  margin: 20px;
+ background-color: #87CEFA;
+  animation: color-change 50s ease-in-out infinite alternate;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #87CEFA;
+  }
+  100% {
+    background-color: #4B0082;
+  }
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    background-color: #87CEFA;
+  }
+  100% {
+    background-color: #4B0082;
+  }
+}
+
+@-moz-keyframes color-change {
+  0% {
+    background-color: #87CEFA;
+  }
+  100% {
+    background-color: #4B0082;
+  }
+}
+
+@-o-keyframes color-change {
+  0% {
+    background-color: #87CEFA;
+  }
+  100% {
+    background-color: #4B0082;
+  }
+} 
+
+code {
+  background: #d0d0d5;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
